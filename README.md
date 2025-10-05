@@ -1,3 +1,5 @@
+# This TWRP device is not maintained, please check out [common TWRP device tree](https://github.com/dupazlasu/android_device_samsung_s5e9925)
+
 # TWRP Device Tree for Samsung Galaxy S22+
 
 The Galaxy S22+ (codenamed _"g0s"_) is a flagship smartphones from Samsung.
@@ -29,10 +31,10 @@ This device tree was tested and is fully compatible with [minimal-manifest-twrp]
 
 1. Set up the build environment following the instructions [here](https://github.com/minimal-manifest-twrp/platform_manifest_twrp_aosp/blob/twrp-12.1/README.md#getting-started)
 
-2. In the root folder of the fetched repo:
+2. In the root folder of the fetched repo, clone the device tree:
 
 ```bash
-git clone https://github.com/dupazlasu/android_device_samsung_g0s.git -b android-12.1
+git clone https://github.com/dupazlasu/android_device_samsung_g0s.git -b android-12.1 device/samsung/g0s
 ```
 
 3. To build:
